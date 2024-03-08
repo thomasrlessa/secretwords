@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+.titulo {
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+}
+
+.paragrafro {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(9, 35, 175);
+  background-color: darkcyan;
+  color: #fff;
+}
+
+button {
+  background-color: darkslategray;
+  color: #fff;
+  padding: 0 45px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background: #0923af;
+}
